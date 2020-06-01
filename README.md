@@ -18,4 +18,4 @@ An assistant can access the program and choose one or more victim files to mark 
 4. See all victim files of a given place of origin, having an age less than a given number. If the place of origin is empty, then all victim files will be considered. The same options (a, b and c) apply in this case.
 5. See the list of victim files selected to be removed as irrelevant or transferred to other departments for additional research.
 
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/StefanCsPurge/Morgue-Application-QT/blob/master/commands.png)
