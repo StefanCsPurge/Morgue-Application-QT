@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MyListWidget</class>
+ <widget class="QWidget" name="MyListWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>690</width>
+    <height>683</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Assistant victims</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>happySkull.png</normaloff>happySkull.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget{background-color: #1c1d1e; color: #dfedf0;font: 11pt 'Courier New'; font-weight:bold}
+QHeaderView::section, QHeaderView::section * {background-color: #5b1717; color: white}</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QTableView" name="victimsTableView">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:white;
+background-color: black;
+gridline-color: rgb(170, 0, 0);
+background-image: url(:/Morgue_qtDesignerGUI/repository/meme3c.jpeg);</string>
+     </property>
+     <property name="sizeAdjustPolicy">
+      <enum>QAbstractScrollArea::AdjustIgnored</enum>
+     </property>
+     <property name="gridStyle">
+      <enum>Qt::DashDotDotLine</enum>
+     </property>
+     <property name="sortingEnabled">
+      <bool>true</bool>
+     </property>
+     <attribute name="horizontalHeaderCascadingSectionResizes">
+      <bool>false</bool>
+     </attribute>
+     <attribute name="horizontalHeaderDefaultSectionSize">
+      <number>200</number>
+     </attribute>
+     <attribute name="verticalHeaderCascadingSectionResizes">
+      <bool>false</bool>
+     </attribute>
+     <attribute name="verticalHeaderDefaultSectionSize">
+      <number>40</number>
+     </attribute>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="Morgue_qtDesignerGUI.qrc"/>
+ </resources>
+ <connections/>
+</ui>

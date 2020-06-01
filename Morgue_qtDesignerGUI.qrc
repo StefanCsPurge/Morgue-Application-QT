@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="Morgue_qtDesignerGUI">
+    <file>repository/meme3c.jpeg</file>
+    <file>repository/meme3.jpeg</file>
+  </qresource>
+</RCC>
