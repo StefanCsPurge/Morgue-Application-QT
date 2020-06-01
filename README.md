@@ -3,7 +3,7 @@ A complete QT GUI application for managing the victims of a morgue.
 
 ![alt text](https://github.com/StefanCsPurge/Morgue-Application-QT/blob/master/happySkull.png)
 
-The SETTINGS can be changed in **configFile.cfg**
+The SETTINGS can be changed in **configFile.cfg**.
 
 The application can be used in two modes: EC-PD morgue admin (mode A) and EC-PD morgue assistant (mode B). When the program is started, it will offer the option to choose the mode.
 
@@ -22,3 +22,7 @@ An assistant can access the program and choose one or more victim files to mark 
 5. See the list of victim files selected to be removed as irrelevant or transferred to other departments for additional research.
 
 ![alt text](https://github.com/StefanCsPurge/Morgue-Application-QT/blob/master/commands.png)
+
+Screenshots
+
+![alt text](https://github.com/StefanCsPurge/Morgue-Application-QT/blob/master/morgueScreenshot.png)
